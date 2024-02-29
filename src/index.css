@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 769px) {
+    .nav_hp {
+        display: none;
+    }
+    .nav_pc {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 55px;
+        background-color: white;
+        border-bottom: 1px solid black;
+        position: sticky;
+        top: 0;
+    }
+    .itech_menu_pc ul{
+        display: flex;
+        margin-right: 100px;
+    }
+    .itech_menu_pc ul li {
+        list-style: none;
+        padding-top: 10px;
+        margin-right: 20px;
+    }
+    .gambar_lobby {
+        background-image: url("./img/gng.png");
+        height: 92vh; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
